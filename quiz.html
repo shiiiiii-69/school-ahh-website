@@ -136,7 +136,7 @@
             userAnswers[questionIndex] = optionIndex;
             const options = document.querySelectorAll(`#option-${questionIndex}-0, #option-${questionIndex}-1, #option-${questionIndex}-2, #option-${questionIndex}-3`);
             options.forEach(button => button.style.backgroundColor = "red");
-            document.getElementById(`option-${questionIndex}-${optionIndex}`).style.backgroundColor = "#ff4d4d";
+            document.getElementById(`option-${questionIndex}-${optionIndex}`).style.backgroundColor = "#9f9cff";
         }
 
         function submitQuiz() {
